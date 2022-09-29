@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  web:
+    image: react-app
+    ports:
+      - 5000:80
+    volumes:
+      - ./config/env.js:/usr/share/nginx/html/assets/config/env.js:ro

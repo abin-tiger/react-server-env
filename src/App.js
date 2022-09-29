@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. <br></br>
+          Environment variables available: <br></br>
+          Backend URL: {window["env"]["API_BACKEND_URL"]} <br></br>
+          Secret Code: {window["env"]["SECRET_CODE"]}
         </p>
         <a
           className="App-link"
